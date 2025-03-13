@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milionerzy - Fizyka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Milionerzy - Fizyka</h1>
+        <center>
+        <p id="question-text">Pytanie 1: Jakie jest prawo Ohma?</p>
+        <div id="question-container">
+            <div id="answers">
+                <button class="answer-btn">A. U = I × R</button>
+                <button class="answer-btn">B. U = I / R</button>
+                <button class="answer-btn">C. U = R × I</button>
+                <button class="answer-btn">D. U = I + R</button>
+            </div>
+        </div>
+        </center>
+        <div id="progress">
+        </div>
+        <div id="lifelines">
+            <button id="phoneAFriend" onclick="usePhoneAFriend()">Telefon do przyjaciela</button>
+        </div>
+        <div id="final-result" style="display:none;">
+            <h2>Gra zakończona</h2>
+            <p id="final-score"></p>
+            <button onclick="restartGame()" id="restart">Zacznij od nowa</button>
+        </div>
+    <div id="prize"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
