@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  background-color: #2b1882;
   text-align: center;
   padding: 20px;
 }
 
 #game-container {
-  background-color: #fff;
+  background-color: #1623dd;
   border-radius: 10px;
   padding-top: 15px;
   padding-left: 30px;
@@ -15,6 +15,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 1200px;
   margin: 0 auto;
+  color: white;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h2 {
   width: 1000px;
 }
 
-p#question-text{
+p#question-text {
   font-size: 45px;
 }
 
@@ -41,8 +42,9 @@ p#question-text{
 }
 
 .answer-btn {
-  background-color: #4CAF50;
-  border: none;
+  background-color: #024292;
+  border: 1px solid whitesmoke;
+  border-radius: 150%;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -54,7 +56,7 @@ p#question-text{
 }
 
 .answer-btn:hover {
-  background-color: #45a049;
+  background-color: #e2aa28;
 }
 
 #progress {
@@ -82,9 +84,9 @@ p#question-text{
 }
 
 #lifelines button:disabled,
-#lifelines button[disabled]{
-background-color: #cccccc;
-color: #666666;
+#lifelines button[disabled] {
+  background-color: #cccccc;
+  color: #666666;
 }
 
 #final-result {
@@ -96,7 +98,7 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
-button#restart{
+button#restart {
   background-color: #f44336;
   border: none;
   color: white;
